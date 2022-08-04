@@ -1,13 +1,16 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import type { NextApiRequest, NextApiResponse } from 'next'
-
-type Data = {
-  name: string
+export interface toDo{
+  userId: number;
+  id: number;
+  title: string;
+  completed: boolean
 }
 
-export default function handler(
-  req: NextApiRequest,
-  res: NextApiResponse<Data>
-) {
-  res.status(200).json({ name: 'John Doe' })
+function getNew(): Promise<toDo[]>{
+  return fetch('https://jsonplaceholder.typicode.com/todos/1')
+  .then(res => res.json())
+  .then(res=>{
+    return res as toDo[]
+  })
 }
+
+export default getNew;
