@@ -1,3 +1,5 @@
+import { UserActionTypes } from "../store/actions/UserAction";
+
 export type UserAction = FETCH_USER | FETCH_USER_SUCCESS | FETCH_USER_DELETE | FETCH_USER_ERROR 
 
 export interface UserState{
