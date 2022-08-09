@@ -1,14 +1,13 @@
-import React, { useState } from "react";
-import Login  from "./components/Login";
-import styles from "./styles/style.module.sass";
-import icon from "../../assets/icon_nav/FatCode.svg";
-import Image from 'next/image'
+import React, { JSXElementConstructor, useState } from "react";
+import Login  from "./LoginNavbar";
+import icon from "../../public/icon_nav/FatCode.svg";
+import Image from 'next/image';
+import styles from '../../styles/NavBar.module.sass';
 
-export default function MainNav(){
+const NavBar: React.FC = ()=>{
     const [login, setLogin] = useState()
-    
     return(
-    <div className={styles.main}> 
+        <div className={styles.main}> 
         <Image src={icon} alt="icon"/>
        <div className={styles.ul}>
        <ul>
@@ -32,3 +31,6 @@ export default function MainNav(){
        </div>
     </div>
 )}
+
+
+export default NavBar

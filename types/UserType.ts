@@ -1,4 +1,4 @@
-import { UserActionTypes } from "../store/actions/UserAction";
+import { UserActionTypes } from "../store/actions";
 
 export type UserAction = FETCH_USER | FETCH_USER_SUCCESS | FETCH_USER_DELETE | FETCH_USER_ERROR 
 
