@@ -1,0 +1,75 @@
+// Стили для хеддера
+.header
+    padding: 15px 153px 15px 191px
+    border-bottom: 1px solid #000
+
+.nav_containers
+    display: inline-flex
+    justify-content: space-evenly
+    align-items: center
+
+.logo
+    font-family: Montserrat, sans-serif
+    font-weight: 800
+    font-size: 34px
+    line-height: 0.75
+    cursor: pointer
+
+    &__accent
+        color: #69cb2d
+
+.nav_container
+    display: flex
+    justify-content: space-between
+
+.nav__list
+    width: 100%
+    display: inline-flex
+    margin-left: 10px
+
+.nav__item:not(:last-child)
+    margin-right: 40px
+
+.nav__link
+    font-family: Montserrat, sans-serif
+    font-weight: 600
+    font-size: 20px
+    line-height: 0.96
+    color: #1c1d1e
+    cursor: pointer
+
+    &:hover
+        color: #69cb2d
+
+.help
+    display: flex
+    align-items: center
+    cursor: pointer
+    margin-left: 107px
+
+    &__btn:hover
+        color: #69cb2d
+
+    &__icon
+        stroke: #69cb2d
+        fill: transparent
+        margin-right: 14px
+
+    &__btn
+        font-family: Montserrat, sans-serif
+        font-weight: 600
+        font-size: 20px
+        line-height: 0.96
+        color: #1c1d1e
+
+.user
+    margin-left: 83px
+
+    &__img
+        width: 60px
+        height: 60px
+        border-radius: 50%
+        border: 6px solid transparent
+
+    &__img:hover
+        border-color: #69cb2d
