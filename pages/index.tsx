@@ -6,7 +6,7 @@ import "@csstools/normalize.css";
 import Link from "next/link";
 
 const Index =()=>{
-    return(
+    return (
         <Provider store={store}>
             <MainLayout/>
             <div>
@@ -16,7 +16,7 @@ const Index =()=>{
                 </Link>
             </div>
         </Provider>
-    )
+    );
 }
 
 export default Index;

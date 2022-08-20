@@ -1,25 +1,15 @@
 import React from "react";
-import {number} from "prop-types";
+import styles from "../styles/Header.module.sass";
+import {TextList} from "../types/TextList";
 
-type ListType = {
-    [text: string]: any
-    item?: any
-}
 
-// Array<TextType>
-type TextType = {
-    text: string
-    id: number
-}
-
- const TextList = ({text}: ListType) => {
+const TextList: React.FC<TextList> = ({text, style }) =>{
     return (
         <>
-            {text.map(item: TextType => {
-                return <li key={item.id}>
-                        <a>{item.text}</a>
-                    </li>
-            })}
+            {text.map(item=>{
+                return <li key={item.id} className={styles.nav__item}>
+                    <a className={styles.nav__link} href={item.href}>{item.text}</a>
+                </li>})}
         </>
     )
 }

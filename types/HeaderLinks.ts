@@ -1,4 +1,6 @@
-interface Link{
+import {ReactNode} from "react";
+
+export interface Link{
     id: number;
     text: string;
     href: string;
@@ -6,4 +8,8 @@ interface Link{
 
 export interface Props{
     links: Link[];
+}
+
+export interface Child{
+    children?: string|ReactNode
 }

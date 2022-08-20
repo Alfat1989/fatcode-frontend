@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import svg from './symbol-defs.svg'
-import TextList from "../../layouts/textList";
+import TextList from "../../layouts/TextList";
 import {TitleDanats} from "../../layouts/Title";
 import {ParagraphDanats} from "../../layouts/ParagraphDanats";
 import {ButtonDanats} from "../../layouts/ButtomDanats";

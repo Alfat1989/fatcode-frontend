@@ -4,7 +4,7 @@ import icon from "../../public/icon_nav/FatCode.svg";
 import Image from 'next/image';
 import "../../styles/variables.module.sass";
 import styles from '../../styles/Header.module.sass';
-import HeaderLinks from "./HeaderLinks";
+import TextList from "../../layouts/TextList";
 import LoginNavbar from "./LoginNavbar";
 
 
@@ -29,7 +29,7 @@ const NavBar: React.FC = ()=> {
             Fat<span className={styles.logo__accent}>( )</span>Code</a>
           <nav className={styles.nav}>
             <ul className={styles.nav__list}>
-                <HeaderLinks links={links}/>
+                <TextList text={links}/>
             </ul>
           </nav>
   
