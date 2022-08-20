@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1e4bca32-b364-43c1-bc64-00ae6966d0f9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../employers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/UI/ButtonUI/ButtonUI.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/UI/AvatarUI/AvatarUI.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/UI/AvatarUI/AvatarUI.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/UI/BtnUi/BtnUi.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/UI/InputUI/InputUi.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/UI/InputUI/InputUI.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/auth/componentsAuth/SignupForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/auth/componentsAuth/SignupForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/header/componentsHeader/HeaderLinks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/header/componentsHeader/HeaderLinks.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Header.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Header.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/variables.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/styles/variables.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/HeaderLinks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/UI/HeaderLinks.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="SCSS File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DGGc9nFjHkOyEzEaEzpVlXPtix" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\Захар\WebstormProjects\fatcode-frontend-master\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Захар\WebstormProjects\fatcode-frontend-master\types\UI" />
+      <recent name="C:\Users\Захар\WebstormProjects\fatcode-frontend-master\components\header\componentsHeader " />
+      <recent name="C:\Users\Захар\WebstormProjects\fatcode-frontend-master\components\UI" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e4bca32-b364-43c1-bc64-00ae6966d0f9" name="Changes" comment="" />
+      <created>1660318089815</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660318089815</updated>
+      <workItem from="1660318092475" duration="4107000" />
+      <workItem from="1660335345065" duration="4478000" />
+      <workItem from="1660382377905" duration="1216000" />
+      <workItem from="1660470864185" duration="10993000" />
+      <workItem from="1660509762317" duration="1052000" />
+      <workItem from="1660557941968" duration="1239000" />
+      <workItem from="1660590449990" duration="1377000" />
+      <workItem from="1660644588460" duration="5827000" />
+      <workItem from="1660744363327" duration="1189000" />
+      <workItem from="1660827305241" duration="3201000" />
+      <workItem from="1660903451842" duration="5294000" />
+      <workItem from="1661012292492" duration="10529000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
