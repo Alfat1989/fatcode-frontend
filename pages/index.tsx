@@ -8,8 +8,9 @@ import AuthUsers from "./signup";
 const Index =()=>{
     return(
         <Provider store={store}>
-            <MainLayout />
-            <AuthUsers />
+            <MainLayout>
+                <AuthUsers />
+            </MainLayout>
         </Provider>
     )
 }

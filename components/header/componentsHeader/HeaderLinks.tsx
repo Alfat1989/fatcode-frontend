@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "../../../styles/Header.module.sass";
-import { Props } from "../../../types/HeaderLinks";
+import { LinkProps } from "../../../types/UI/HeaderLinks";
 
 
 
-const HeaderLinks: React.FC<Props> = ({links})=>{
+const HeaderLinks: React.FC<LinkProps> = ({links})=>{
     return (
         <>
             {links.map(item=>{

@@ -4,6 +4,6 @@ interface Link{
     href: string;
 }
 
-export interface Props{
+export interface LinkProps{
     links: Link[];
 }

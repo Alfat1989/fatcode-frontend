@@ -1,0 +1,69 @@
+.form {
+  margin-top: 190px;
+  margin-left: 1074px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  //font-family: $primary-font;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+}
+
+.form__input {
+  width: 634px;
+  height: 55px;
+  margin-top: 19px;
+  padding-left: 22px;
+  //font-family: $secondary-font;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.25;
+  background: #f3f3f3;
+  border-radius: 5px;
+  border: none;
+}
+
+.form__input.web {
+  width: 919px;
+  height: 55px;
+  margin-top: 19px;
+  padding-left: 22px;
+  //font-family: $secondary-font;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.25;
+  background: transparent;
+  border: 3px solid #f3f3f3;
+  border-radius: 5px;
+}
+
+.form__input:not(:last-child) {
+  margin-bottom: 33px;
+}
+
+.form__input::placeholder {
+  //font-family: $secondary-font;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1.25;
+  color: #1c1d1e;
+}
+
+.registration {
+  position: relative;
+}
+
+.card {
+  position: absolute;
+  z-index: -1;
+  height: 886px;
+  width: 1843px;
+  background-color: #ffffff;
+  border-radius: 60px;
+  left: 38px;
+  right: 38px;
+}
+
