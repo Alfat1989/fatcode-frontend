@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e4bca32-b364-43c1-bc64-00ae6966d0f9" name="Changes" comment="">
+    <list default="true" id="1e4bca32-b364-43c1-bc64-00ae6966d0f9" name="Changes" comment="add UI">
       <change afterPath="$PROJECT_DIR$/../employers" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/UI/ButtonUI/ButtonUI.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/UI/AvatarUI/AvatarUI.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/UI/AvatarUI/AvatarUI.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/UI/BtnUi/BtnUi.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/UI/InputUI/InputUi.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/UI/InputUI/InputUI.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/auth/componentsAuth/SignupForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/auth/componentsAuth/SignupForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/header/componentsHeader/HeaderLinks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/header/componentsHeader/HeaderLinks.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Header.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Header.module.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/variables.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/styles/variables.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/HeaderLinks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/UI/HeaderLinks.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,11 +45,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Users\Захар\WebstormProjects\fatcode-frontend-master\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -88,7 +79,8 @@
       <workItem from="1660744363327" duration="1189000" />
       <workItem from="1660827305241" duration="3201000" />
       <workItem from="1660903451842" duration="5294000" />
-      <workItem from="1661012292492" duration="10529000" />
+      <workItem from="1661012292492" duration="11415000" />
+      <workItem from="1661028034072" duration="35000" />
     </task>
     <servers />
   </component>
@@ -100,7 +92,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
