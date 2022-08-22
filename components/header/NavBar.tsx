@@ -15,8 +15,8 @@ const stylesM = {
 
 const NavBar: React.FC = ()=> {
     const [links, setLinks] = useState([
-        {id:1, text: "Главная", href: ""},
-        {id:2, text: "Курсы", href: ""},
+        {id:1, text: "Главная", href: "/"},
+        {id:2, text: "Курсы", href: "/courses"},
         {id:3, text: "Бесплатные уроки", href: ""},
         {id:4, text: "Блог", href: ""},
         {id:5, text: "О нас", href: ""},
