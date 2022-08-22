@@ -3,20 +3,18 @@ import { Provider } from "react-redux";
 import MainLayout from "../layouts/MainLayout";
 import {store} from '../store';
 import "@csstools/normalize.css";
-import Link from "next/link";
+import SignupUser from "./signup";
+import LoginUser from "./login";
 
 const Index =()=>{
-    return (
+    return(
         <Provider store={store}>
-            <MainLayout/>
-            <div>
-                Main page
-                <Link href='profile/ProfileMyDanats'>
-                    Ссылка на страницу Мои донаты
-                </Link>
-            </div>
+            <MainLayout>
+                <SignupUser />
+                <LoginUser />
+            </MainLayout>
         </Provider>
-    );
+    )
 }
 
 export default Index;
