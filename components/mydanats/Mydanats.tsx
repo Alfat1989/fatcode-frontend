@@ -1,6 +1,12 @@
 import React, { useState } from "react";
 import svg from './symbol-defs.svg'
-import TextList from "../../layouts/textList";
+import TextList from "../../layouts/TextList";
+import {TitleDanats} from "../../layouts/Title";
+import {ParagraphDanats} from "../../layouts/ParagraphDanats";
+import {ButtonDanats} from "../../layouts/ButtomDanats";
+import {PawsDanats} from "../../layouts/PawsDanats";
+import {TitleTitleDanats} from "../../layouts/TextTitleDanats";
+import {ImageDanats} from "../../layouts/ImageDanats";
 
 
 const MyDanats = () => {
@@ -23,31 +29,19 @@ const MyDanats = () => {
             <TextList text={list}/>
           </ul>
           <div>
-            <h2>Мои донаты</h2>
-            <p>
-              Всё обучение на сайте предоставляется бесплатно и держится на
-              команде отчаянных энтузиастов, однако, если Вам вдруг хочется
-              подкинуть нашей команде пару копеек на кофе, хлеб и может даже
-              что-то посерьезнее — мы будем бесконечно рады и поделим между
-              всеми членами команды. Но если вдруг Вам не комфортно помогать
-              голодным разрабам, то мы предлагаем альтернативу — помощь
-              животным. Среди нас есть энтузиасты, которые лично выбирают
-              конкретных животных и помогают им оплатить передержки, корм,
-              операции, лекарства и прочее. Следы ваших донатов вы будете видеть
-              на этой странице в качестве коротких фотоотчетов. Фотографии же
-              сытых разрабов, мы вам не предоставим, увы. Удачи в обучении! И не
-              забывайте про эту вкладочку - она дарит волшебство!
-            </p>
-            <div>
-              <button>Нашей команде</button>
-              <button>Животным</button>
-            </div>
+            <TitleDanats />
+            <ParagraphDanats />
+            <ButtonDanats />
           </div>
         </div>
       </div>
-      <div >лапы </div>
-      <div >
-        <span>Ваши маленькие чудеса </span>
+      <PawsDanats />
+      <div>
+        <TitleTitleDanats />
+      </div>
+      <div>
+          <ImageDanats />
+          <ImageDanats />
       </div>
     </div>
   );

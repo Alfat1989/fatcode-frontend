@@ -1,10 +1,11 @@
 import React from "react";
 import MainLayout from "../../layouts/MainLayout";
+import {Child} from "../../types/HeaderLinks";
 
-export const UserId = ()=>{
+const UserId: React.FC = ()=>{
     return (
         <MainLayout>
-            Профиль пользователя
+            Начало
         </MainLayout>
     )
 }
