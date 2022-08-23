@@ -1,12 +1,11 @@
-import Image from "next/image";
 import { useRouter } from "next/router";
 import React from "react";
-import pen from "../../public/icon_nav/Vector.svg";
 import styles from "../../styles/Header.module.sass";
+import Link from "next/link";
 
 
 export default function LoginNavbar(){
-    const router = useRouter()
+    //const router = useRouter()
     return(
         <>
         <div className={styles.help}>
@@ -18,11 +17,13 @@ export default function LoginNavbar(){
             <a className={styles.help__btn}>Помощь</a>
           </div>
           <div className={styles.user}>
-            <a className={styles.user__btn} href="#">
-              <img className={styles.user__img}
-                src="./images/profile@1x.jpg"
-                alt="account"/>
-            </a>
+              <Link href="/profile/1">
+                  <a className={styles.user__btn}>
+                  <img className={styles.user__img}
+                       src="./images/profile@1x.jpg"
+                       alt="account"/>
+              </a>
+              </Link>
           </div>
         </>
     )
