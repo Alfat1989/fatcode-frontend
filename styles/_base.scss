@@ -1,0 +1,54 @@
+@import "variables";
+
+//
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+// базовые стили для всего проекта
+// убирает подчеркивание ссылок
+a {
+  text-decoration: none;
+}
+// убирает баг в браузере в несколько пикселей отступа
+img {
+  display: block;
+}
+// убирает точки у списков и отступы
+ul,
+ol,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+// убирает отступы у заголовков и абзацев
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+// глобальные стили для BODY
+body {
+  position: relative;
+  font-family: $primary-font;
+  letter-spacing: 0.03em;
+  color: $primary-text-color;
+  background-color: $background-color;
+}
+// глобальные стили для BODY + Modal
+body.modal-open {
+  overflow: hidden;
+}
+// глобальные стили для контейнера
+.container {
+  margin: 0 auto;
+  padding: 15px 40px;
+}

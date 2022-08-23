@@ -1,7 +1,6 @@
 import React, {useState} from "react";
-import {Field, reduxForm} from "redux-form";
+import {reduxForm} from "redux-form";
 import styles from "/styles/_form.module.scss"
-import {InputProps} from "../../../types/UI/FormInput"
 import InputUI from "../../UI/InputUI/InputUI"
 import ButtonUI from "../../UI/ButtonUI/ButtonUI"
 
