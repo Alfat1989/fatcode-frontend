@@ -1,26 +1,13 @@
 import React, { JSXElementConstructor, useState } from "react";
-import Login  from "./LoginNavbar";
-import icon from "../../public/icon_nav/FatCode.svg";
-import Image from 'next/image';
 import "../../styles/variables.module.sass";
 import styles from '../../styles/Header.module.sass';
 import TextList from "../../layouts/TextList";
 import LoginNavbar from "./LoginNavbar";
+import {NavBarText} from "../../data/TextsLists";
 
-
-
-const stylesM = {
-    width: 100
-}
 
 const NavBar: React.FC = ()=> {
-    const [links, setLinks] = useState([
-        {id:1, text: "Главная", href: "/"},
-        {id:2, text: "Курсы", href: "/courses"},
-        {id:3, text: "Бесплатные уроки", href: ""},
-        {id:4, text: "Блог", href: ""},
-        {id:5, text: "О нас", href: ""},
-    ])
+    const [links, setLinks] = useState(NavBarText)
 
     return(
         <header className={styles.header}>

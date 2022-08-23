@@ -5,6 +5,7 @@ import {store} from '../store';
 import "@csstools/normalize.css";
 import SignupUser from "./signup";
 import LoginUser from "./login";
+import Link from "next/link";
 
 const Index =()=>{
     return(
@@ -12,6 +13,7 @@ const Index =()=>{
             <MainLayout>
                 <SignupUser />
                 <LoginUser />
+                <Link href="profile/profilemydanats">donats</Link>
             </MainLayout>
         </Provider>
     )

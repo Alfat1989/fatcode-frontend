@@ -1,19 +1,19 @@
 import React from "react";
 import MainLayout from "../../layouts/MainLayout";
 import LeftMenu from "../../components/profile/LeftMenu";
-import {MainPageProfile} from "../../layouts/profile/MainPageProfile"
-import ProfileMyDanats from "./ProfileMyDanats";
+import {MainPageProfile} from "./MainPageProfile"
+import {Child} from "../../types/HeaderLinks";
 
 
-export const UserId = ()=>{
+const User = ({children}:Child)=>{
     return (
         <MainLayout>
             <LeftMenu/>
             <MainPageProfile>
-                <ProfileMyDanats/>
+                {children}
             </MainPageProfile>
         </MainLayout>
     )
 }
 
-export default UserId;
+export default User
