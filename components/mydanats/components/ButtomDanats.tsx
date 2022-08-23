@@ -1,5 +1,6 @@
 import React from "react";
 
+// кнопки отвечают за данаты команде и животным
 export const ButtonDanats = () => {
     return (
         <>

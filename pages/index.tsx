@@ -9,6 +9,16 @@ import Link from "next/link";
 
 const Index =()=>{
     return(
+        <Provider store={store}>
+            <MainLayout>
+                <Link href="profile/1">profile</Link>
+                <SignupUser />
+                <LoginUser />
+
+                <Link href='/profile/ProfileMyDanats'>ссылка на Мои Донаты</Link>
+            </MainLayout>
+        </Provider>
+
         <MainLayout>
             <Link href="profile/1">profile</Link>
             <SignupUser />

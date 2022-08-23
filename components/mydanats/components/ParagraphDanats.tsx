@@ -1,5 +1,6 @@
 import React from "react";
 
+// описание проекта и наших условий (в кратце)
 export const ParagraphDanats = () => {
     return (
         <p>

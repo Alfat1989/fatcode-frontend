@@ -6,8 +6,6 @@ import {useRouter} from "next/router";
 
 
 const TextList: React.FC<TextList> = ({text, style }) =>{
-    const router = useRouter()
-    //router.push(`/profile/${item.href}`)
     return (
         <>
             {text.map(item=>{
