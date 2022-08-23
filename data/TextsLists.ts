@@ -15,3 +15,12 @@ export const NavBarText = [
     {id:4, text: "Блог", href: ""},
     {id:5, text: "О нас", href: ""},
 ]
+
+export const InputSignupForm = [
+    {id: 1,label: "Логин", name: "username", type: "text", tag_id: "login", placeholder: "login"},
+    {id: 2,label: "E-mai", name: "email", type: "text", tag_id: "email", placeholder: "email"},
+    {id: 3,label: "Новый пароль", name: "password", type: "text", tag_id: "password", placeholder: "password"},
+    {id: 4,label: "Повторите пароль", name: "re_password", type: "text", tag_id: "re_password", placeholder: "re_password"}
+]
+
+
