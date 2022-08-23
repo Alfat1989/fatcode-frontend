@@ -11,6 +11,7 @@ const Index =()=>{
     return(
         <Provider store={store}>
             <MainLayout>
+                <Link href="profile/1"/>
                 <SignupUser />
                 <LoginUser />
                 <Link href="profile/profilemydanats">donats</Link>
