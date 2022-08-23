@@ -1,8 +1,8 @@
 import React from "react";
 import "/styles/_base.scss"
 
-const MyApp: React.FC = ({ Component, pageProps }) => (
-    <Component {...pageProps} />
-);
+function MyApp({ Component, pageProps }) {
+    return <Component {...pageProps} />
+}
 
-export default MyApp;
+export default MyApp

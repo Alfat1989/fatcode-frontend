@@ -11,9 +11,10 @@ const Index =()=>{
     return(
         <Provider store={store}>
             <MainLayout>
+                <Link href="profile/1">profile</Link>
                 <SignupUser />
                 <LoginUser />
-                
+
                 <Link href='/profile/ProfileMyDanats'>ссылка на Мои Донаты</Link>
             </MainLayout>
         </Provider>

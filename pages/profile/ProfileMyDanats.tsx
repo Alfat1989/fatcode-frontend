@@ -7,7 +7,8 @@ const ProfileMyDanats = () => {
         <MainLayout>
             <MyDanats/>
         </MainLayout>
-    );
-};
+    )
+}
+
 
 export default ProfileMyDanats;

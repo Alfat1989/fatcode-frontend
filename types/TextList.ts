@@ -1,9 +1,8 @@
-import {number} from "prop-types";
-
 interface Text{
     id: number;
     text: string;
-    href?: string;
+    Url?: string|undefined;
+    href?: string|undefined;
     img?: string;
 }[]
 
