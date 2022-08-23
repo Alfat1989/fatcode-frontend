@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import svg from './symbol-defs.svg'
-import TextList from "../../layouts/TextList";
-import {TitleDanats} from "../../layouts/Title";
-import {ParagraphDanats} from "../../layouts/ParagraphDanats";
-import {ButtonDanats} from "../../layouts/ButtomDanats";
-import {PawsDanats} from "../../layouts/PawsDanats";
-import {TitleTitleDanats} from "../../layouts/TextTitleDanats";
-import {ImageDanats} from "../../layouts/ImageDanats";
+import TextList from "./components/TextList";
+import {TitleDanats} from "./components/Title";
+import {ParagraphDanats} from "./components/ParagraphDanats";
+import {ButtonDanats} from "./components/ButtomDanats";
+import {PawsDanats} from "./components/PawsDanats";
+import {TitleTitleDanats} from "./components/TextTitleDanats";
+import {ImageDanats} from "./components/ImageDanats";
 
-
+// собирает все компонеты страницы MyDanats
 const MyDanats = () => {
   const [list, setList] = useState([
     {text: 'Профиль', id: 1},

@@ -4,7 +4,7 @@ import icon from "../../public/icon_nav/FatCode.svg";
 import Image from 'next/image';
 import "../../styles/variables.module.sass";
 import styles from '../../styles/Header.module.sass';
-import TextList from "../../layouts/TextList";
+import TextList from "../mydanats/components/TextList";
 import LoginNavbar from "./LoginNavbar";
 
 
