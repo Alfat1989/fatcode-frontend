@@ -1,6 +1,5 @@
-import React, {useState} from "react";
+import React from "react";
 import MyDanats from '../../components/mydanats/Mydanats';
-import TextList from "../../layouts/textList";
 
 const ProfileMyDanats = () => {
     return (
