@@ -10,7 +10,7 @@ let SignupForm:React.FC = (props) => {
     const { handleSubmit } = props;
 
     const [button, setButton] = useState([
-        {id: 1, content: "Зареистрироваться"}
+        {id: 1, content: "Зареистрироваться", type: 'submit'}
     ]);
 
     return (

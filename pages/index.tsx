@@ -7,17 +7,13 @@ import SignupUser from "./signup";
 import LoginUser from "./login";
 import Link from "next/link";
 
-
 const Index =()=>{
     return(
-        <Provider store={store}>
-            <MainLayout>
-                <Link href="profile/1">profile</Link>
-                <SignupUser />
-                <LoginUser />
-                <Link href="profile/profilemydanats">donats</Link>
-            </MainLayout>
-        </Provider>
+        <MainLayout>
+            <Link href="profile/1">profile</Link>
+            <SignupUser />
+            <LoginUser />
+        </MainLayout>
     )
 }
 
