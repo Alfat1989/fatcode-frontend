@@ -10,24 +10,11 @@ import {ImageDanats} from "../../layouts/ImageDanats";
 
 
 const MyDanats = () => {
-  const [list, setList] = useState([
-    {text: 'Профиль', id: 1},
-    {text: 'Мой питомец', id: 2},
-    {text: 'Мои курсы', id: 3},
-    {text: 'Мои ментора', id: 4},
-    {text: 'Мои донаты', id: 5},
-    {text: 'Мои заметки', id: 6},
-    {text: 'Вопрос-ответ', id: 7},
-  ]
-    ); 
 
   return (
     <div>
       <div >
         <div>
-          <ul>
-            <TextList text={list}/>
-          </ul>
           <div>
             <TitleDanats />
             <ParagraphDanats />
